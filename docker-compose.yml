@@ -18,7 +18,6 @@ services:
             - GF_DATABASE_NAME=${GF_DATABASE_NAME}
             - GF_DATABASE_USER=${GF_DATABASE_USER}
             - GF_DATABASE_PASSWORD=${GF_DATABASE_PASSWORD}
-            # - GF_DATABASE_SSL_MODE=disable # Change to "require" if Railway enforces SSL
         ports:
             - 3000:3000
         volumes:
